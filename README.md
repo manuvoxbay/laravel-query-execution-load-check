@@ -22,7 +22,6 @@ Query Builder Package:
                         ->allowedFilters('name')
                         ->get();
 
-3
 #    Regarding SQL injection prevention:
 
 For Eloquent and Laravel Default Query Builder, Laravel handles the preparation, so no need to manually prepare statements.
