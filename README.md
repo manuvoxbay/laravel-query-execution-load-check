@@ -22,9 +22,10 @@ Query Builder Package:
                         ->allowedFilters('name')
                         ->get();
 
-Regarding SQL injection prevention:
+3
+#    Regarding SQL injection prevention:
 
-    For Eloquent and Laravel Default Query Builder, Laravel handles the preparation, so no need to manually prepare statements.
-    However, using Raw Queries is not recommended for security reasons.
+For Eloquent and Laravel Default Query Builder, Laravel handles the preparation, so no need to manually prepare statements.
+However, using Raw Queries is not recommended for security reasons.
 
 In summary, choose Eloquent for small datasets, Laravel Query Builder for speed, and the Query Builder Package for concise code. Laravel takes care of SQL injection prevention, so manual preparation is unnecessary."
