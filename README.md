@@ -2,8 +2,8 @@
 
 "We have explored various options for fetching data in Laravel:
 
-    Eloquent:
-        It is ideal for fetching a small amount of data.
+Eloquent:
+    It is ideal for fetching a small amount of data.
         Example:
            $users = User::get();
 
